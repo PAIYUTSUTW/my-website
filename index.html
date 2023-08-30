@@ -5,41 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Personal Website</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #35424a;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #2f3d44;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #2f3d44;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
+        /* ... (之前的 CSS 样式) ... */
     </style>
 </head>
 <body>
@@ -48,25 +14,40 @@
         <p>Web Developer | Designer</p>
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#talks">Talks</a>
+        <a href="#publications">Publications</a>
     </nav>
-    <section>
-        <h2>About Me</h2>
+    <section id="home">
+        <h2>Home</h2>
         <p>Welcome to my personal website! I'm a passionate web developer and designer with a focus on creating engaging and user-friendly experiences.</p>
     </section>
-    <section>
-        <h2>Portfolio</h2>
-        <p>Check out some of my recent projects:</p>
-        <!-- Add your portfolio projects here -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <!-- Add more skills here -->
+        </ul>
     </section>
-    <section>
-        <h2>Contact Me</h2>
-        <p>Feel free to get in touch:</p>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out some of my recent projects:</p>
+        <!-- Add your project descriptions and links here -->
+    </section>
+    <section id="talks">
+        <h2>Talks</h2>
+        <p>Here are some of my recent talks:</p>
+        <!-- Add your talk details and links here -->
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <p>Explore my published articles and papers:</p>
+        <!-- Add your publication details and links here -->
     </section>
     <footer>
         <p>&copy; 2023 Your Name. All rights reserved.</p>
